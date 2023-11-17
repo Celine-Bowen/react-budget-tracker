@@ -1,0 +1,46 @@
+.transaction-form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  font-size: 14px;
+}
+
+.transaction-form label {
+  display: block;
+  border-radius: 5px;
+}
+
+input{
+  height: 20px;
+  outline: none;
+}
+
+select{
+  height: 30px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.transaction-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.error {
+  color: red;
+  font-size: 8px;
+  position: absolute;
+  bottom: -20px; 
+}
